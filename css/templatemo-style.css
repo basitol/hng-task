@@ -193,6 +193,13 @@ h5 {
   padding-bottom: 140px;
   text-align: center;
 }
+@media screen and (max-width: 600px) {
+  #home {
+    background: url(../images/myimg_2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
 #home h1 {
   border: 2px solid #d43f52;
   color: #d43f52;
